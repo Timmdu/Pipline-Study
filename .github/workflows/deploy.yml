@@ -6,7 +6,7 @@ on:
       - 'main' # 当Git仓库有push时触发下面的任务
     paths:
       - '.github/workflows/*'
-      - 'test'
+      - '*'
 
 jobs:
   deploy:
