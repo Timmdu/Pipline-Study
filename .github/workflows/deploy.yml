@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2 # 第三方 action
+      - uses: actions/checkout@v3 # 第三方 action
       
       - name: mkdir #创建文件夹
         run: mkdir test-folder
